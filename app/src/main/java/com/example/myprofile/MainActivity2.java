@@ -23,6 +23,11 @@ public class MainActivity2 extends AppCompatActivity {
             return insets;
         });
     }
+    public void dostigenia(View view) {
+        Intent intent = new Intent(MainActivity2.this, MainActivity.class);
+        startActivity(intent);
+        finish();
+    }
 
     public void razrabotchik2(View view) {
         Intent intent = new Intent(MainActivity2.this, MainActivity.class);
